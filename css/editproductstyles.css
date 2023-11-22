@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*removing borders from genre table*/
+table.genretable tr td {
+	border: none;
+	outline: none;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 34% repeat(3, 22%);
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+}
+
+
+.genrecontainer {
+	grid-column: 4;
+}
+
+
+
+.buttondiv {
+	grid-row: 2;
+	grid-column: span 2;
+	width: 100%;
+}
+
+/* ---------------------------------- Inputs ---------------------------------- */
+.productid-div {
+	display: flex;
+	margin-top: 10px;
+}
+
+.formcontainer1, .formcontainer2 {
+/*	display:*/
+}
+
+
+
+label, input[type="text"], input[type="number"], input[type="file"], input[type=password],  button {
+	display: block;
+	padding: 0.45rem;
+/*	margin-top: 0;*/
+}
+
+label, input[type="text"], input[type="number"], input[type="email"], input[type=password], textarea, select, .genrescheckbox {
+	width: 300px;
+/*	margin-left: 0.5rem;*/
+}
+
+
+
+input, textarea, select {
+	border-radius: 3px;
+	border: 1px #388186 solid;
+	background-color: #2a363b;
+	color: #fff;
+}
+
+input:focus, textarea:focus, select:focus {
+	outline: none;
+	background-color: #0B0E0F;
+	border: 1px #0395FF solid;
+}
+
+
+label {
+	padding: 1rem 0 0.2rem 0;
+}
+
+/*to get productid to look like normal text, but can still display a value*/
+input[type="text"].productid {
+	margin-top: 1rem;
+	outline: none;
+	border: none;
+	color: #fff;
+/*	display: inline;*/
+	width: 30px;
+	margin-left: -10px;
+	background: #2a363b;
+}
+
+/*GENRES */
+
+.genretable {
+	margin-top: 0.5rem;
+}
+
+input[type="text"].genreinput {
+	width: 250px;
+	margin-left: 0;
+	padding-right: 0;
+	background-color: #2a363b;
+	color: #fff;
+	border: none;
+	border-bottom: 1.5px #388186 solid;
+	border-radius: 0;
+}
+input[type="text"].genreinput:focus {
+	border-bottom: 1.5px #0395FF solid;
+}
+
+input[type="text"].addgenre {
+	margin-left: 0.5rem;
+	width: 280px;
+}
+
+.newgenrelabel {
+	padding-left: 0;
+}
+
+button.genrebtn {
+	width: 280px;
+}
+
+textarea {
+	height: 120px;
+	padding: 0.2rem;
+}
+
+/* New Styling */
+input[type="text"].videolink {
+	width: 100px;
+	padding-left: 0;
+	margin-left: 0;
+	
+}
+
+select {
+	padding: 0.2rem;
+}
+
+.imgpreview {
+	width: 300px;
+/*	margin-left: 0.45rem;*/
+}
+
+.image {
+	width: 100%;
+	border: 1px #388186 solid;
+}
+
+#imgpreview {
+	width: 300px;
+}
+
+
+.videolinkdiv {
+	display: flex;
+	align-items: center;
+	font-size: 0.8rem;
+	color: #D2D2D2;
+}
+
+.logoutbtn {
+	padding: 0;
+}
+
+
+.devcontainer, .pubcontainer {
+	padding: 2rem;
+	
+}
+
+.pubcontainer {
+	grid-column: 3;
+}
+
+
+.gdpbutton {
+	padding: 0;
+	margin: 0;
+	background-color: #2a363b;
+	font-size: 0.8rem;
+	color: red;
+/*	border-bottom: 1.5px #388186 solid;*/
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+table tr td {
+/*
+	padding-right: 0;
+	padding-left: 0;
+*/
+}

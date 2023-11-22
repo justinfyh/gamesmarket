@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------------------------------- Global ---------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2a363b;
+	color: #fdf6f6;
+	font-family: 'Noto Sans', sans-serif;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.wrapper {
+	max-width: 70%;
+	min-width: 800px;
+	margin-top: 2%;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: auto;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/* ---------------------------------- Table Styling ---------------------------------- */
+table {
+	width: 99%;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+table tr th {
+	padding: 0 2px;
+	text-align: left;
+}
+
+table tr td {
+	padding: 4px 5px;
+	border: 1px solid #388186;
+}
+
+.description {
+	max-width: 320px;
+	height: initial;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.description:hover {
+	white-space: normal;
+}
+
+/* ---------------------------------- Defaults ---------------------------------- */
+span.smalltext {
+	font-size: 0.8rem;
+}
+
+.headertext {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.container {
+	display: flex;
+}
+
+
+.containerheader {
+	padding-top: 10px;
+}
+
+.formcontainer {
+	border-right: 1.5px solid #388186;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+/* ---------------------------------- Navigation ---------------------------------- */
+.nav {
+	max-width: 70%;
+	min-width: 800px;
+	margin: auto;
+	padding-left: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #388186;
+}
+
+.navbackgroundadmin {
+	width: 100vw;
+ 	position: relative;
+  	left: 50%;
+  	right: 50%;
+  	margin-left: -50.3vw;
+  	margin-right: -50vw;
+/*	padding-left: 50vw;*/
+	background-color: #388186;
+	border-bottom: 2px #0395FF solid;
+	
+}
+
+.nav ul li {
+	list-style: none;
+	padding: 0.5rem 0 0.5rem 1rem;
+	display: inline-block;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #FFF;
+/*	font-weight: 500;*/
+	font-size: 16px;
+	padding: 0.3rem;
+}
+
+.nav ul li a:hover {
+	background-color: #0395FF;
+	border-radius: 3px;
+}
+
+.nav ul {
+	display: flex;
+}
+
+button.logoutbtn {
+	width: 100%;
+	font-size: 1rem;
+	background: none;
+	color: #fff;
+	border: none;
+}
+
+.page-links {
+	display: flex;
+	align-items: center;
+	vertical-align: center;
+}
+
+/* ---------------------------------- Search & Refine ---------------------------------- */
+.search-bars, .refine-genre, .search-item {
+	display: flex;
+}
+
+
+
+
+
+/* ---------------------------------- Buttons/Links ---------------------------------- */
+button {
+	width: 100%;
+	font-size: 1rem;
+	margin: 1.5rem 1.5rem 1.5rem 0.5rem;
+	background: #388186;
+	color: #fff;
+	border: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+
+
+
+
+/* ---------------------------------- Catalogue ---------------------------------- */
+.catalogue-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+}
+
+.search-bars {
+	display: flex;
+	align-items: center;
+}
+
+.image {
+	width: 200px;
+}
+
+/* More Options Drop Down*/
+/* Dropdown Button */
+.dropbtn {
+	background-color: rgba(56, 129, 134, 0.8);
+	color: white;
+	padding: 0.3rem;
+/*	font-size: 16px;*/
+	border-radius: 0;
+	width: 120px;
+	border: none;
+	margin: 0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdiv {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropcontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+/*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropcontent a {
+  color: black;
+  padding: 6px 10px;
+  text-decoration: none;
+  display: block;
+	font-size: 15px;
+	text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropcontent a:hover {background-color: #ddd; 
+border-left: 2px #0395FF solid;}
+
+/* Show the dropdown menu on hover */
+.dropdiv:hover .dropcontent {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdiv:hover .dropbtn {background-color: #0395FF;}
+
+
+
+
+

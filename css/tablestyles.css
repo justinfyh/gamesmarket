@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*edit button sizing*/
+.editbutton input[type="image"] {
+	width: 20px;
+}
+
+/*page links for pagination*/
+.pagelinks {
+	padding-top: 10px;
+}
+
+.pagelinks a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+	background-color: #388186;
+	padding: 6px 8px;
+}
+
+
+/*styling for search bars section*/
+button.refinebtn {
+	width: 100px;
+}
+
+.searchproducts input[type='text'], .searchusers input[type='text'], .refine-genre select {
+	width: 200px;
+	height: 25px;
+}
+
+.search-bars {
+	display: flex;
+}
+
+.searchbtn img {
+	width: 20px;	
+}
+
+button.searchbtn {
+	margin-top: 50px;
+	background: #2a363b;
+}

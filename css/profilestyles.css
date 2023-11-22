@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Conatiners */
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.buttondiv {
+	margin-top: 2rem;
+	grid-row: 2;
+	grid-column: span 2;
+	width: 100%;
+}
+
+/* ---------------------------------- Inputs & Labels ---------------------------------- */
+label, input[type="text"], input[type="number"], input[type="file"], input[type=password],  button {
+	display: block;
+	padding: 0.8rem;
+}
+
+label, input[type="text"], input[type="number"], input[type="email"], input[type=password] {
+	width: 90%;
+	margin-right: 2rem;
+}
+
+input {
+	border-radius: 3px;
+	border: 1px #388186 solid;
+	background-color: #2a363b;
+	font-size: 0.9rem;
+	color: #fff;
+}
+
+input:focus {
+	outline: none;
+	background-color: #0B0E0F;
+	border: 1px #0395FF solid;
+}
+
+
+label {
+	padding: 1rem 0 0.2rem 0;
+}
+
+
+/* Buttons */
+
+.buttondiv button {
+	width: 95%;
+	margin-top: 1rem;
+	border: 1px #fff solid;
+	background-color: #324349;
+	padding: 0.5rem;
+}
+
+.buttondiv button:hover {
+	background-color: #0B0E0F;
+	border: 1px #0395FF solid;
+	
+}
+
+.deactivatebtn:focus {
+	color: red;
+}
+
+.deactivatebtn {
+	background-color: #324349;
+	font-size: 0.8rem;
+	padding: 0;
+	margin: 0;
+	color: red;
+	padding-right: 4.5rem;
+}
+
+.searchbtn {
+	padding-top: 2px;
+	padding-bottom: 0;
+}
+

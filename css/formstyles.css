@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #324349;
+	text-align: center;
+}
+
+.wrapper {
+/*
+	max-width: 0;
+	min-width: 0;
+*/
+	
+	display: inline-block;
+	margin-top: 2%;
+	border: 1px solid #CECECE;
+	border-radius: 5px;
+	background-color: #2a363b;
+}
+
+.innerwrapper {
+	text-align: left;
+	padding: 1.5rem 3rem;
+}
+
+.registerwrapper {
+/*	width: 56vw;*/
+/*	height: 90vh;*/
+}
+
+.loginwrapper {
+	max-width: 40%;
+	min-width: 350px;
+/*	width: 10vw;*/
+}
+
+.formnav {
+	display: flex;
+/*	flex-direction: column;*/
+	justify-content: space-between;
+	margin-top: 0;
+	margin-left: 0;
+	padding-left: 0;
+	width: 100%;
+}
+
+.logo {
+	font-style: normal;
+	display: block;
+}
+
+.links {
+/*	font-size: 10px;*/
+	width: 40%;
+	padding-right: 1rem;
+}
+
+.header {
+	margin-top: 20px;
+}
+
+/* For label and input fields */
+label, input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+	display: block;
+	width: 300px;
+/*	height: 28px;*/
+/*	padding: 0.3rem;*/
+	border-radius: 3px;
+	background-color: #2a363b;
+	
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus {
+	outline: none;
+	background-color: #0B0E0F;
+	border: 1px #0395FF solid;
+}
+
+input {
+	border: 1px #388186 solid;
+	padding: 0.45rem;
+	color: #fff;
+}
+
+label {
+	margin-top: 0.5rem;
+	margin-bottom: 0.2rem;
+}
+
+/* Form Alignment */
+.registerform {
+	display: flex;
+	flex-direction: column;
+}
+
+.registerdiv {
+	display: flex;
+}
+
+.addressform {
+	padding-left: 5rem;
+	padding-top: 2rem;
+}
+
+
+/* Buttons */
+.buttondiv {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 2rem;
+}
+
+button {
+	background: #2a363b;
+	color: #fff;
+	
+	margin: 1.5rem 0;
+	font-size: 1rem;
+	width: 120px;
+	height: 35px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+	color: #0395FF;
+}
+
+.cancelbtn {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.registerbtn, .loginbtn {
+/*	*/
+	border-radius: 5px;
+	border: 1px #fff solid;
+}
+
+.registerbtn:hover, .loginbtn:hover {
+	background: #388186;
+	border: none;
+}
+
+.pagelink {
+	border-bottom: 1px #fff solid;
+	
+}
+
+.logo a {
+/*	display: block;*/
+	font-style: normal;
+	font-size: 1rem;
+}

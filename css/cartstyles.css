@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+table, th, td {
+/*  border: 1px solid white;*/
+}
+
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+/*	border: 1px white solid;*/
+}
+
+table td {
+/*	padding: 10px;*/
+	padding: 0;
+	margin: 0;
+/*	padding-right: 2rem;*/
+/*	border: 1px white solid;*/
+}
+
+th {
+/*	display: inline-block;*/
+/*	width: 5vw;*/
+}
+
+table tr {
+/*	display: flex;*/
+	width: 100%;
+/*	justify-content: space-between;*/
+	align-items: center;
+	border-bottom: 0.3rem solid #324349;
+	background-color: #2a363b;
+}
+
+table tr:first-child, table tr:last-child {
+	width: inherit;
+	background-color: #324349;
+/*	text-align: right;*/
+}
+
+td img.product-image {
+/*	display: flex;*/
+	width: 210px;
+	height: 120px;
+	padding: 0.5rem;
+	margin: 0;
+/*	align-items: flex-start;*/
+}
+
+.pricecol {
+	padding-right: 1rem;
+}
+
+.unitpricecol {
+	padding-right: 3rem;
+}
+
+.itemquantity {
+	padding: 2px;
+
+}
+
+.discounted {
+	color: red;
+	text-decoration: line-through;
+	display: inline;
+	padding-right: 0.5rem;
+}
+
+.itemquantity:focus {
+	outline: none;
+}
+
+
+.cart .remove {
+	background: none;
+	border: none;
+	color: #FF0004;
+	cursor: pointer;
+	padding: 0px;
+	font-size: 0.7rem;
+}
+
+
+
+.submitorder {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	padding-right: 2rem;
+}
+
+
+
+.submitorder input[type='number'], label {
+	display: inline-block;
+	background-color: #324349;
+	border: none;
+	font-size: 1rem;
+	color: #fff;
+	
+/*	padding-left: 1rem;*/
+}
+
+.submitorderbtn {
+background: rgba(56, 129, 134, 0.8);
+	border-radius: 3px;
+	color: #fff;
+	border: none;
+	font-size: 0.9rem;
+	width: 120px;
+	height: 30px;
+}
+
+.submitorderbtn:hover {
+	background: #0395FF;
+}
+
+.cartstatus {
+	font-size: 0.9rem;
+}
+
+.orderstatus {
+	padding-top: 1rem;
+	font-size: 1.2rem;
+	color: lime;
+}
+

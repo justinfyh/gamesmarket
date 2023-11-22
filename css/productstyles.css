@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.productsection {
+	position: relative;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 2rem;
+/*	height:  50.625%;*/
+}
+
+
+
+.nav, .navbackground {
+	background-color: transparent;
+	border-bottom: none;
+}
+
+.sectionheader {
+	display: flex;
+}
+
+.productgenre {
+	font-size: 0.8rem;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.3rem 1rem;
+	margin: 0 0.5rem;
+	background: rgba(56, 129, 134, 0.8);
+	border-radius: 3px;
+/*	opacity: 85%;*/
+}
+
+.productgenre:hover {
+	background: rgba(56, 129, 134, 1);
+}
+
+
+.productgenres {
+	display: flex;
+}
+
+button, button.searchbtn {
+	background-color: transparent;
+}
+
+.addtocart {
+	background: rgba(56, 129, 134, 0.8);
+	border-radius: 3px;
+	color: #fff;
+	border: none;
+	font-size: 1rem;
+	width: 120px;
+	height: 35px;
+}
+
+.addtocart:hover {
+	background: rgba(56, 129, 134, 1);
+}
+
+.addtocartform {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	bottom: 0;
+	right: 0;
+/*	transform: translateY(100%);*/
+	position: absolute;
+}
+
+.pricetag {
+	font-size: 1.4rem;
+	padding-right: 1rem;
+}
+
+input[type="text"].searchbox {
+	background-color: transparent;
+}
+
+input[type="text"].searchbox:focus {
+	background-color: #2a363b;
+}
+
+iframe {
+	position: absolute;
+	border: 1.8px solid white;
+}
+
+.details {
+/*	height: 50.625%;*/
+}
+
+/* To keep the aspect ratio of the video play while it scales*/
+.videocontainer {
+	position: relative;
+	width: 95%;
+/*	16:9 aspect ratio of a video gives 90*0.5625 = 50.625%*/
+	padding-bottom: 53.4375%;
+}
+
+.disclaimer {
+	font-size: 0.7rem;
+	padding-top: 0.3rem;
+}
