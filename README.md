@@ -8,7 +8,7 @@ https://www.youtube.com/playlist?list=PLJHJhQdnvUFCur5QBWJzU_3uM-IEh4HAL
 
 Install wamp
 
-Add composer file
+Add composer file to wamp64
 
 Import data into phpMyAdmin db using the sql file
 
